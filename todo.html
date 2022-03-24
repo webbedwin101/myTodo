@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/Users/edwinwebb/Desktop/myTodo/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="content">
+            <div class="column-head"></div>
+            <div class="topic"></div>
+            <div class="todo" id="date">
+                <div id = "container">
+                    <h1>My To-Do List <button id = "more_todo" type="button" onclick="addTodo()">+</button></h1>
+                    <!-- <input type="text" id="userInput" placeholder="Add New Todo"> -->
+                    <div id="mydiv">
+                        <p>Set your Designation:</p>
+                    </div>
+                    <div class="list_layout"> <button id = "task_completed" type="button" onclick="crossOffTodo()">-</button>
+                    <ul id="list" class="this-list">
+                        <!-- <li> <span><i class= "mov-trash"></i></span> item 1</li>
+                        <li> <span><i class= "mov-trash"></i></span> item 2</li>
+                        <li> <span><i class= "mov-trash"></i></span> item 3</li> -->
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        <div id="footer"></div>
+        </div>
+    </div>
+    
+    <script src="/Users/edwinwebb/Desktop/myTodo/todo.js" async defer></script>
+</body>
+</html>
