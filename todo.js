@@ -34,17 +34,17 @@ this.removeChild(e.target);
 });
 
 // Prompts user for completed task by attribute id, then toggles class of attribute id item to cross off the list
-function crossOffTodo() {
-    let done = prompt("Which task would you like to cross off the list?");
-    console.log(done);
-    // var ul = document.getElementById("list");
-    // var match = document.getElementById("li");
-    var match = document.querySelectorAll('[id=done]');
-    if (match = done) {
-        toggle();
-    }
-    else {alert("sorry I cant do that");}
-}
+// function crossOffTodo() {
+//     let done = prompt("Which task would you like to cross off the list?");
+//     console.log(done);
+//     // var ul = document.getElementById("list");
+//     // var match = document.getElementById("li");
+//     var match = document.querySelectorAll('[id=done]');
+//     if (match = done) {
+//         toggle();
+//     }
+//     else {alert("sorry I cant do that");}
+// }
 
 // function getInputFromTextBox() {
 //     var input = document.getElementById("userInput").value;
